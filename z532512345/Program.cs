@@ -11,7 +11,7 @@
             test.AddLast(3);
             test.AddLast(2);
             Reverse<int>.Print(test);
-            Reverse<int>.Reverser(test);
+            Reverse<int>.Reverser(test.head);
             Reverse<int>.Print(test);
         }
      
